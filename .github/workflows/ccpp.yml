@@ -19,5 +19,3 @@ jobs:
       run: ./configure --target=h8300-hitachi-hms --prefix=/usr --disable-nls
     - name: make
       run: make
-    - name: make install
-      run: make install
