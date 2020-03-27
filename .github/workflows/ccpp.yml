@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: configure 
-      run: ./configure --target=$H8300_TARGET --prefix=/usr --disable-nls
+      run: ./configure --target=h8300-hitachi-hms --prefix=/usr --disable-nls
     - name: make
       run: make
     - name: make install
