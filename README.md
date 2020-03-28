@@ -1,4 +1,4 @@
-# binutils-cil  ![C/C++ CI](https://github.com/BrickBot/binutils-cil/workflows/C/C++%20CI/badge.svg)
+# binutils-cil  ![binutils-cil CI](https://github.com/BrickBot/binutils-cil/workflows/binutils-cil%20CI/badge.svg)
 Used in conjunction with the gcc-cil project to add CIL capabilties, for use with brickOS-bibo and Lego.NET
 
 
