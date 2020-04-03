@@ -9,6 +9,15 @@ binutils 2.15 that was used in the creation of the Lego.NET v1.4 release.
 
 For additional details, please refer to the README in the [gcc-cil project](https://github.com/BrickBot/gcc-cil).
 
+## Note to Package Builders and Maintainers
+To avoid conflicts with tool-prefix names for the “standard” cross-compile toolchain,
+it is suggested to add “-cil” to the end of the prefix.
+
+As an example, on Debian/Ubuntu, the standard prefix for h8/300 tools is `h8300-hms-`;
+for these CIL-enabled build tools, it is suggested to make the prefix `h8300-hms-cil-`.
+
+
+## 
 
 The remainder of this file is the contents of the original binutils README file
 
