@@ -21,7 +21,7 @@ jobs:
     - name: install build dependencies
       run: sudo apt-get --assume-yes install bison flex
     - name: configure 
-      run: ./configure --target=h8300-hitachi-hms --prefix=/usr --exec_prefix=h8300-hms-cil --disable-nls
+      run: ./configure --target=h8300-hitachi-hms --prefix=/usr --exec_prefix=/usr/bin/h8300-hms-cil --disable-nls
     - name: make
       run: make
     - name: make install
