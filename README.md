@@ -1,5 +1,6 @@
 # binutils-cil  ![binutils-cil CI](https://github.com/BrickBot/binutils-cil/workflows/binutils-cil%20CI/badge.svg)
-Used in conjunction with the gcc-cil project to add CIL capabilties, for use with brickOS-bibo and Lego.NET
+Used in conjunction with the gcc-cil project to add CIL capabilties, for use with
+[brickOS-bibo](https://github.com/BrickBot/brickOS-bibo) and [Lego.NET](https://github.com/BrickBot/gcc-cil)
 
 
 ## Background
