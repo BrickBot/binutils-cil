@@ -15,10 +15,11 @@ jobs:
         os: [ ubuntu-latest ]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: apt-get update
+    - name: Get latest from version control
+      uses: actions/checkout@v4
+    - name: Update environment
       run: sudo apt-get --assume-yes update
-    - name: install build dependencies
+    - name: Install build dependencies
       run: sudo apt-get --assume-yes install bison flex
     - name: configure 
       run: ./configure --target=h8300-hitachi-hms --prefix=/usr --disable-nls
